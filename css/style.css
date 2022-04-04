@@ -6441,6 +6441,7 @@ blockquote {
         margin-right: 0px;
         padding: 10px 15px;
         flex-direction: column;
+        min-height: 96px;
     }
     .hero__cont {
         padding-top: 2.69em;
@@ -6456,6 +6457,7 @@ blockquote {
     .presale {
         flex-direction: column;
         margin-right: 20px;
+        min-height: 96px;
         padding: 10px 15px;
     }
     .presale img {
