@@ -6438,7 +6438,7 @@ blockquote {
         padding: 15px 20px;
     }
     .listing {
-        margin-right: 5px;
+        margin-right: 0px;
         padding: 10px 15px;
         flex-direction: column;
     }
@@ -6455,6 +6455,7 @@ blockquote {
     }
     .presale {
         flex-direction: column;
+        margin-right: 20px;
     }
     .presale img {
         width: 85px;
@@ -6465,4 +6466,8 @@ blockquote {
         margin-top: 8px;
     }
     .nav__container {}
+    .listing .text,
+    .presale .text {
+        margin-right: 0;
+    }
 }
